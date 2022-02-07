@@ -2,11 +2,11 @@ li {
 margin-bottom: 16px;
 }
 
-[target="_blank"] {
+a[target="_blank"] {
     border: 2px solid black;
 }
 
-a[href^="brocken"] {
+a[href^="broken"] {
     border:2px solid red;
 }
 
@@ -18,7 +18,7 @@ a[lang|="en"] {
    font-size: 10px;
 }
 
-a[href^="www"] {
+a[href*="www"] {
     color:green;
 }
 
