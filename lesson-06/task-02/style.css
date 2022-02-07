@@ -12,7 +12,7 @@ ul li {
     color:white;
 }
 
-ul>li>span {
+#special + li>span {
     border: 3px solid red
 }
 
