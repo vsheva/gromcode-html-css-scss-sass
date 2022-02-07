@@ -1,0 +1,28 @@
+.figure {
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.rectangle {
+    border-radius: 16px;
+    background-color: forestgreen;
+}
+
+.oval {
+    border-radius: 50%;
+    background-color: darkmagenta;
+}
+
+.circle {
+    padding-bottom: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.triangle {
+    box-sizing: border-box;
+    border: 50px solid white;
+    border-top-color: brown;
+}
