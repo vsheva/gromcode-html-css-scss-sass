@@ -1,8 +1,9 @@
 .theory::first-letter {
     font-size: 36px;
-    margin-left: 16px;
     color: orange;
+    margin-left: 16px;
 }
+
 .theory::first-line {
     font-size: 24px;
 }
@@ -13,11 +14,11 @@
 }
 
 a::before {
-    content: ">";
+    content: '>';
     color: green;
 }
 
 a::after {
-    content: "<";
+    content: '<';
     color: green;
 }
