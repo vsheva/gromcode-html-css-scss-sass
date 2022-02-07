@@ -12,8 +12,8 @@ ul li {
     color:white;
 }
 
-#special + li>span {
-    border: 3px solid red
+#special + li {
+    border: 3px solid red;
 }
 
 #special ~ li {
