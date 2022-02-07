@@ -1,0 +1,27 @@
+div {
+    height: 412px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+div > div {
+    height: 308px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+div > div > div {
+    height: 204px;
+    background-color: green;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+div > div > div > div {
+    height: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 50px;
+}
