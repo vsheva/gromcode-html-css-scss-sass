@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: bisque;
+    padding: 16px;
+    margin: 8px;
+}
