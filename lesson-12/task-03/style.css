@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url(Verdana.ttf);
+}
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 74px;
+    text-align: center;
+    margin: auto;
+}
+
+div {
+    height: 200px;
+    line-height: 200px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
