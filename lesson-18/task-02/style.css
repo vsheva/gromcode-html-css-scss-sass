@@ -1,29 +1,30 @@
-body {
-    display: flex;
-    justify-content: space-around;
+.button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+    border: none;
+    border-radius: 4px;
+    margin: 64px;
 }
 
-.full {
-    font-size:16px;
-    line-height:16px;
+.button:hover {
+    cursor: pointer;
+    color: darkcyan;
 }
 
-.three-quarters {
-    font-size:32px;
-    line-height:32px;
+.catch {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    vertical-align: middle;
 }
 
-.half {
-    font-size: 64px;
-    line-height:64px;
-}
-
-.quarter {
-    font-size:128px;
-    line-height:128px;
-}
-
-.empty {
-    font-size:256px;
-    line-height:256px;
+.button:hover > .catch {
+    fill: green;
 }
