@@ -13,11 +13,17 @@ div {
 }
 
 
+.vertical {
+    background-color: coral;
+
+}
+
 .horizontal {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+
     height:50px;
 }
 
@@ -26,16 +32,14 @@ div {
 .vertical > span {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+
     height:200px;
 
 }
 
-.vertical {
-    background-color: coral;
 
-}
 
 
 
