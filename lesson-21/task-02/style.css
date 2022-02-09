@@ -1,20 +1,27 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
 .main-content {
     display: flex;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 
 .gallery {
     display:flex;
     width:80%;
-    background-color:coral;
+    background-color:#fa5;
     justify-content: center;
 }
 
 .ideas {
     display: flex;
     width:20%;
-    background-color:aqua;
+    background-color:#5af;
 }
 
 .main-image {
@@ -34,3 +41,7 @@
     white-space:nowrap;
     text-overflow:ellipsis;
 }
+
+
+
+
