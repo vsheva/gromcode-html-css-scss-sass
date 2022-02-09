@@ -1,3 +1,4 @@
+
 html {
     font-size: 24px;
 }
@@ -10,21 +11,122 @@ div {
 .horizontal > span {
     background-color: aqua;
 }
-.vertical > span {
-    background-color: coral;
-}
+
 
 .horizontal {
-    display: flex;
-    align-items: center;
+    display:flex;
+    flex-direction: row;
     justify-content: space-around;
-    height: 50px;
+    align-items: center;
+    height:50px;
+}
+
+
+
+.vertical > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:200px;
+
 }
 
 .vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
+    background-color: coral;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html {*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*div {*/
+/*    margin: 16px;*/
+/*    border: 1px solid burlywood;*/
+/*}*/
+
+
+
+
+
+
+
+/*.horizontal > span {*/
+/*    background-color: aqua;*/
+/*}*/
+/*.vertical > span {*/
+/*    background-color: coral;*/
+/*}*/
+
+/*.horizontal {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    height: 50px;*/
+/*}*/
+
+/*.vertical {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    height: 200px;*/
+/*}*/
