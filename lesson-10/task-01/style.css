@@ -13,7 +13,7 @@ div {
 }
 
 
-.vertical {
+.vertical>span {
     background-color: coral;
 
 }
@@ -29,67 +29,14 @@ div {
 
 
 
-.vertical > span {
+.vertical{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
     height:200px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
