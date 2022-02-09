@@ -7,7 +7,7 @@
 .main-content {
     display: flex;
     min-height: 100vh;
-    min-width: 100vw;
+
 }
 
 
@@ -35,7 +35,7 @@
     text-transform:uppercase;
     font-weight: 700;
     padding:4px;
-    color:white;
+    color:#fff;
     margin:auto;
     overflow:hidden;
     white-space:nowrap;
