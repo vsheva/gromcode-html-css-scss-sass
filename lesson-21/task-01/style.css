@@ -1,0 +1,40 @@
+.main-content {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+/*.title1 {*/
+/*    display: flex;*/
+/*    */
+/*}*/
+
+.gallery {
+    display:flex;
+    width:80%;
+    background-color:coral;
+    justify-content: center;
+}
+
+.ideas {
+    display: flex;
+    width:20%;
+    background-color:aqua;
+}
+
+.main-image {
+    max-width:100%;
+    margin:auto;
+}
+
+.idea {
+    font-size:24px;
+    text-transform:uppercase;
+    font-weight: 700;
+    padding:4px;
+    color:white;
+    margin:auto;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
