@@ -128,13 +128,17 @@ img {
     .news {
         width: 100%;
     }
-
 }
 
 
 
 
-@media screen and (max-width:1199px) {
+@media screen and (min-width:600px) {
+
+    .main {
+        flex-direction: column;
+    }
+
     .container{
         flex-direction: row;
     }
@@ -154,7 +158,7 @@ img {
 }
 
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1199px) {
     .main{
         flex-direction: row;
     }
@@ -172,9 +176,9 @@ img {
         width: 75%;
     }
 
-    /*.news {*/
-    /*    width: 20%*/
-    /*}*/
+    .news {
+        width: 20%
+    }
 
 }
 
