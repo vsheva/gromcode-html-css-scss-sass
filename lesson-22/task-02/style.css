@@ -35,6 +35,8 @@
 }
 
 
+
+
 @media screen and (min-width: 600px) {
     .products {
         flex-direction: row;
