@@ -1,18 +1,14 @@
-@import "variables.scss";
-
 .header {
   display: flex;
   align-items: center;
+  height: $unit * 7;
   background-color: $color-grey;
-  height: $unit*7;
 }
-
 
 .nav-list {
   display: flex;
   align-items: center;
   list-style: none;
-
 
   &__item {
     font-weight: 700;
@@ -22,15 +18,13 @@
     padding: $unit;
     cursor: pointer;
     margin-left: $unit;
+
+    &_selected {
+      background-color: $color-primary;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
-
-  &_selected{
-    background-color: $color-primary;
-  }
-
-  &:hover {
-    opacity: 0.7;
-  }
-
-
 }

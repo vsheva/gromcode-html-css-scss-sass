@@ -1,8 +1,8 @@
 .header {
   display: flex;
   align-items: center;
-  background-color: #eeeeee;
   height: 56px;
+  background-color: #eeeeee;
 }
 
 .nav-list {
@@ -19,10 +19,10 @@
   cursor: pointer;
   margin-left: 8px;
 }
-.nav-list_selected {
+.nav-list__item_selected {
   background-color: #ffbb00;
 }
-.nav-list:hover {
+.nav-list__item:hover {
   opacity: 0.7;
 }
 
@@ -33,7 +33,7 @@
 }
 
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 16px;
 }
 
