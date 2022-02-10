@@ -158,7 +158,7 @@ img {
 }
 
 
-@media screen and (max-width:1199px) {
+@media screen and (min-width:1199px) {
     .main{
         flex-direction: row;
     }
