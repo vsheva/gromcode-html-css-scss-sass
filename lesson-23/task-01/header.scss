@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   background-color: $color-grey;
-  height: $unit *7;
+  height: $unit*7;
 }
 
 
@@ -14,19 +14,17 @@
   list-style: none;
 
 
-  color: $text-color-secondary;
-
-
   &__item {
     font-weight: 700;
+    color: $text-color-secondary;
     background-color: $color-secondary;
-    padding: $unit;
-    margin-left:$unit;
     border-radius: $border-radius;
+    padding: $unit;
     cursor: pointer;
+    margin-left: $unit;
   }
 
-  &__selected{
+  &_selected{
     background-color: $color-primary;
   }
 
