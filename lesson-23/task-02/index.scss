@@ -1,3 +1,5 @@
+@import "breakpoints.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -12,9 +14,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-}
-@media screen and (orientation: landscape) {
-  .container {
+
+  @include landscape {
     flex-direction: row;
   }
 }
@@ -24,21 +25,16 @@ body {
   width: 100px;
   margin: 8px;
   background-color: #ff7f50;
-}
-@media screen and (min-width: 600px) and (max-width: 899px) {
-  .square {
+
+  @include sm {
     background-color: #8a2be2;
   }
-}
-@media screen and (min-width: 900px) and (max-width: 1199px) {
-  .square {
+
+  @include lg {
     background-color: #a61;
   }
-}
-@media screen and (min-width: 1200px) {
-  .square {
+
+  @include extra-lg {
     background-color: #c47;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

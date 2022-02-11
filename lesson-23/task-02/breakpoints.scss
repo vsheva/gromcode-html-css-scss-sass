@@ -1,0 +1,54 @@
+@mixin sm {
+  @media screen and (min-width: 600px) and (max-width: 899px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: 900px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin extra-lg {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin landscape {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+
+
+
+
+
+
+
+//@mixin sm {
+//  @media screen and (max-width: $sm) {
+//    @content;
+//  }
+//}
+//
+//@mixin md {
+//  @media screen and  (min-width: $md) {
+//    @content;
+//  }
+//}
+//
+//@mixin lg {
+//  @media screen and (min-width: $lg) {
+//    @content;
+//  }
+//}
+//
+//@mixin bg {
+//  @media screen and (min-width: $bg) {
+//    @content;
+//  }
+//}
