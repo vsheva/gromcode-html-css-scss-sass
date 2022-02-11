@@ -43,3 +43,24 @@
     }
   }
 }
+
+@media screen and (min-width: 900px) {
+
+  .main,
+  .products {
+    flex-direction: row;
+  }
+
+  .products {
+    width: 100% * 2/3;
+
+    .header,
+    .products-list {
+      width: 50%;
+    }
+  }
+
+  .news {
+    width: 100% * 1/3;
+  }
+}

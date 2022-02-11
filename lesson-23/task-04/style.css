@@ -42,6 +42,24 @@
     width: 50%;
   }
 }
+@media screen and (min-width: 900px) {
+  .main,
+.products {
+    flex-direction: row;
+  }
+
+  .products {
+    width: 66.6666666667%;
+  }
+  .products .header,
+.products .products-list {
+    width: 50%;
+  }
+
+  .news {
+    width: 33.3333333333%;
+  }
+}
 * {
   box-sizing: border-box;
 }
