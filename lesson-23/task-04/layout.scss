@@ -36,18 +36,10 @@
 @media screen and (min-width: 600px) and (max-width: 899px) {
   .products {
     flex-direction: row;
-  }
-  .products .header,
-.products .products-list {
-    width: 50%;
-  }
-}
-* {
-  box-sizing: border-box;
-}
 
-html {
-  font-family: Verdana;
+    .header,
+    .products-list {
+      width: 50%;
+    }
+  }
 }
-
-/*# sourceMappingURL=style.css.map */
