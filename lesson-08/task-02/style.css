@@ -1,11 +1,25 @@
 div {
     font-size: 24px;
-    width: 420px;
-    height: 140px;
-    padding: 20px;
-    border-width: 10px 20px;
-    border-style: solid solid dashed dashed;
-    border-color: firebrick chartreuse burlywood aqua;
-    background-color: bisque;
+    box-sizing: border-box;
+    width: 500px;
+    height:200px;
     margin: 50px 100px;
+    background-color:bisque;
+    border-top: 10px solid firebrick;
+    border-right: 20px solid chartreuse;
+    border-bottom: 10px dashed burlywood;
+    border-left: 20px dashed aqua;
 }
+
+
+/*div {*/
+/*    font-size: 24px;*/
+/*    width: 420px;*/
+/*    height: 140px;*/
+/*    padding: 20px;*/
+/*    border-width: 10px 20px;*/
+/*    border-style: solid solid dashed dashed;*/
+/*    border-color: firebrick chartreuse burlywood aqua;*/
+/*    background-color: bisque;*/
+/*    margin: 50px 100px;*/
+/*}*/

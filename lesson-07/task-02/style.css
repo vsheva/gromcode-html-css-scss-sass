@@ -7,16 +7,45 @@ li:first-child > span {
     color: white;
 }
 
-
 li:last-child > span {
     background-color: black;
     color: white;
 }
 
-li:nth-child(even) span {
+li:nth-of-type(even)>span{
     margin-left: 16px;
 }
 
-.paragraphs > p:nth-of-type(odd) {
+/*li:nth-child(even) > span {*/
+/*    margin-left: 16px;*/
+/*}*/
+
+
+
+.paragraphs p:nth-of-type(odd) {
     background-color: grey;
 }
+
+
+/*li {*/
+/*    margin-bottom: 16px;*/
+/*}*/
+
+/*li:first-child > span {*/
+/*    background-color: red;*/
+/*    color: white;*/
+/*}*/
+
+
+/*li:last-child > span {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+/*li:nth-child(even) span {*/
+/*    margin-left: 16px;*/
+/*}*/
+
+/*.paragraphs > p:nth-of-type(odd) {*/
+/*    background-color: grey;*/
+/*}*/

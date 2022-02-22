@@ -1,5 +1,5 @@
 body {
-    background-color: #bdc3c7;
+   background-color: #bdc3c7;
 }
 
 h1 {
@@ -7,47 +7,146 @@ h1 {
 }
 
 h2 {
-    color: orange;
+    color:orange;
 }
 
-li {
-    color: blue;
+
+li{
+    color:blue;
 }
 
-p {
-    background-color: yellow;
+p{
+    background-color:yellow;
 }
 
 input {
-    border: 3px solid red;
+    border: 2px solid red;
 }
 
-.hello {
-    background-color: white;
+.hello{
+    background-color:white;
 }
+
 
 #special {
-    border: 2px solid blue;
+    border:2px solid blue;
 }
 
 div p {
-    font-size: 25px;
+    font-size:25px;
 }
 
 input[type="text"] {
-    background-color: gray;
+    background-color:gray;
 }
 
-div:nth-of-type(3) p:nth-of-type(1) {
-    background-color: yellow;
+
+
+body> div:nth-of-type(3) p {
+background-color:yellow;
 }
 
-div:nth-of-type(3) p:nth-of-type(2) {
-    background-color: yellow;
-    border: 5px solid white;
+body> div:nth-of-type(3) p:last-child{
+    border:5px solid white;
 }
 
-div:nth-of-type(3) em {
+
+body> div:nth-of-type(3)  em{
     color: white;
-    font-size: 20px;
+    font-size:20px;
 }
+
+
+
+
+
+
+
+
+
+
+/*body> div:nth-child(5) p {*/
+/*background-color:yellow;*/
+/*}*/
+
+/*body> div:nth-child(5) p:last-child{*/
+/*    border:5px solid white;*/
+/*}*/
+
+
+/*body> div:nth-child(5) em{*/
+/*    color: white;*/
+/*    font-size:20px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {*/
+/*    background-color: #bdc3c7;*/
+/*}*/
+
+/*h1 {*/
+/*    color: #9b59b6;*/
+/*}*/
+
+/*h2 {*/
+/*    color: orange;*/
+/*}*/
+
+/*li {*/
+/*    color: blue;*/
+/*}*/
+
+/*p {*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*input {*/
+/*    border: 3px solid red;*/
+/*}*/
+
+/*.hello {*/
+/*    background-color: white;*/
+/*}*/
+
+/*#special {*/
+/*    border: 2px solid blue;*/
+/*}*/
+
+/*div p {*/
+/*    font-size: 25px;*/
+/*}*/
+
+/*input[type="text"] {*/
+/*    background-color: gray;*/
+/*}*/
+
+/*div:nth-of-type(3) p:nth-of-type(1) {*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*div:nth-of-type(3) p:nth-of-type(2) {*/
+/*    background-color: yellow;*/
+/*    border: 5px solid white;*/
+/*}*/
+
+/*div:nth-of-type(3) em {*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*}*/

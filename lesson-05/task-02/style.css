@@ -1,15 +1,32 @@
 [data-description="anchors"] {
-    background-color:gray;
+    background-color: grey;
 }
 
 [data-description] {
-    font-size:24px;
+    font-size: 24px;
 }
 
 a[href][target] {
-    color:green;
+    color: green;
 }
 
 input[type="text"] {
-    background-color:orange;
+    background-color: orange;
 }
+
+
+/*[data-description="anchors"] {*/
+/*    background-color:gray;*/
+/*}*/
+
+/*[data-description] {*/
+/*    font-size:24px;*/
+/*}*/
+
+/*a[href][target] {*/
+/*    color:green;*/
+/*}*/
+
+/*input[type="text"] {*/
+/*    background-color:orange;*/
+/*}*/

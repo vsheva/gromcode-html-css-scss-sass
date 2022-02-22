@@ -1,6 +1,6 @@
 .anchor:link {
     background-color: black;
-    color: white
+    color: white;
 }
 
 .anchor:visited {
@@ -8,8 +8,7 @@
     color: green;
 }
 
-button:active, .anchor:active {
-
+.anchor:active, button:active {
     border: 3px solid red;
 }
 
@@ -18,19 +17,56 @@ button:active, .anchor:active {
 }
 
 button:disabled {
-    border: 2px dashed gray;
+    border: 2px dashed grey;
 }
 
-button:hover:enabled {
-
-    background-color: gray;
+button:enabled {
     color: white;
+    background-color: grey;
 }
 
-input:focus {
-    background-color: orange;
+.search:focus{
+    background-color:orange;
 }
 
-.confirm-checkbox:checked {
-    margin-left:20px;
+input[type="checkbox"]:checked {
+    margin-left: 20px;
 }
+
+
+/*.anchor:link {*/
+/*    background-color: black;*/
+/*    color: white*/
+/*}*/
+
+/*.anchor:visited {*/
+/*    background-color: orange;*/
+/*    color: green;*/
+/*}*/
+
+/*button:active, .anchor:active {*/
+
+/*    border: 3px solid red;*/
+/*}*/
+
+/*.anchor:hover {*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*button:disabled {*/
+/*    border: 2px dashed gray;*/
+/*}*/
+
+/*button:hover:enabled {*/
+
+/*    background-color: gray;*/
+/*    color: white;*/
+/*}*/
+
+/*input:focus {*/
+/*    background-color: orange;*/
+/*}*/
+
+/*.confirm-checkbox:checked {*/
+/*    margin-left:20px;*/
+/*}*/
