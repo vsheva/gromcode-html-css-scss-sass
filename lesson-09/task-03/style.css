@@ -1,24 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
 .header {
-    height: 50px;
-    background-color: yellow;
+    height:50px;
+    background-color:yellow;
 }
 
-.content {
-    float: left;
-    height: 500px;
-    width: 80%;
-    background-color: pink;
+.content{
+    float:left;
+    width:80%;
+    background-color:pink;
+    height:500px;
 }
 
-.sidebar {
-    float: right;
-    height: 500px;
-    width: 20%;
-    background-color: grey;
+.sidebar{
+    width:20%;
+    background-color:grey;
+    float:right;
+    height:500px;
 }
+
 
 .footer {
-    clear: both;
-    height: 50px;
-    background-color: green;
+    height:50px;
+    background-color:green;
+    clear:both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.header {*/
+/*    height: 50px;*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*.content {*/
+/*    float: left;*/
+/*    height: 500px;*/
+/*    width: 80%;*/
+/*    background-color: pink;*/
+/*}*/
+
+/*.sidebar {*/
+/*    float: right;*/
+/*    height: 500px;*/
+/*    width: 20%;*/
+/*    background-color: grey;*/
+/*}*/
+
+/*.footer {*/
+/*    clear: both;*/
+/*    height: 50px;*/
+/*    background-color: green;*/
+/*}*/

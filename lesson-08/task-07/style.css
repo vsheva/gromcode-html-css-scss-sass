@@ -1,27 +1,23 @@
 div {
-    height: 412px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+.div1 {
+    margin: 50px;
     background-color: blue;
-    border: 2px solid black;
-    margin: 50px;
 }
 
-div > div {
-    height: 308px;
+.div2 {
     background-color: yellow;
-    border: 2px solid black;
-    margin: 50px;
 }
 
-div > div > div {
-    height: 204px;
+.div3 {
     background-color: green;
-    border: 2px solid black;
-    margin: 50px;
 }
 
-div > div > div > div {
-    height: 100px;
+.div4 {
     background-color: pink;
-    border: 2px solid black;
-    margin: 50px;
+    height: 100px;
 }
+
