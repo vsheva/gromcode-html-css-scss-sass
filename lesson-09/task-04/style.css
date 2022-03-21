@@ -1,27 +1,80 @@
 div {
-    float: left;
-    box-sizing: border-box;
-    height: 200px;
-    width: 20%;
-    margin: 0px;
+    height:200px;
+    width:20%;
+    float:right;
 }
 
 .block_red {
-    background-color: red;
+    background-color:red;
 }
 
 .block_green {
-    background-color: green;
+    background-color:green;
 }
 
-.block_blue {
-    background-color: blue;
+.block_blue{
+    background-color:blue;
 }
 
 .block_yellow {
-    background-color: yellow;
+    background-color:yellow;
 }
 
 .block_black {
-    background-color: black;
+    background-color:black
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div {*/
+/*    float: left;*/
+/*    box-sizing: border-box;*/
+/*    height: 200px;*/
+/*    width: 20%;*/
+/*    margin: 0px;*/
+/*}*/
+
+/*.block_red {*/
+/*    background-color: red;*/
+/*}*/
+
+/*.block_green {*/
+/*    background-color: green;*/
+/*}*/
+
+/*.block_blue {*/
+/*    background-color: blue;*/
+/*}*/
+
+/*.block_yellow {*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*.block_black {*/
+/*    background-color: black;*/
+/*}*/
