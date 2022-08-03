@@ -6,7 +6,7 @@
     position: relative;
     margin:16px;
     display: inline-block;
-    height:34px;
+    height:50px;
 }
 
 
@@ -15,9 +15,9 @@
     opacity:0.8;
     font-size:16px;
     color:white;
-    cursor:pointer;
     background-color:darkgreen;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .menu-button:hover{
@@ -29,8 +29,6 @@
 .menu-list{
     padding:0;
     margin:0;
-    top:34px;
-    color:black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     background-color:lightcyan;
@@ -38,6 +36,7 @@
     list-style-type: none;
     position: absolute;
     display:none;
+
 }
 
 .menu-item{
