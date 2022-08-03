@@ -1,24 +1,6 @@
-/*.container {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-
-/*}*/
-
-
-/*div.block {*/
-/*    flex-grow: 1;*/
-/*    flex-shrink: 0;*/
-/*    min-width: 100px;*/
-/*    background-color: coral;*/
-/*    margin: 8px;*/
-/*    height: 100px;*/
-/*}*/
-
-
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /*по главной оси в ряд */
 }
 
 
@@ -28,8 +10,8 @@ div.block {
     margin: 8px;
     height: 100px;
     width: 100px;
-    flex-shrink: 0;
-    flex-grow: 1;
+    flex-shrink: 0; /* 1- сжимаются сильнее, 0- нет, по главной оси в ряд */
+    flex-grow: 1;  /*1 - последние растут , чем больше значение, тем более пропорционально элемент забирает доступное пространство*/
 }
 
-
+/*flex-wrap: wrap -перенос на следующую строку*/

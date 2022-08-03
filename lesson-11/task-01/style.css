@@ -4,10 +4,16 @@
     background: coral;
 }
 
-.container > div:nth-child(1) {
-    display: none;
+.container >div:nth-child(1) {
+    display:none;
 }
 
-.container > div:nth-child(2) {
+
+.container >div:nth-child(2) {
     visibility: hidden;
+}
+
+
+.container >div:nth-child(3) {
+    visibility: visible;
 }

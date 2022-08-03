@@ -1,44 +1,3 @@
-
-/*html {*/
-/*    font-size: 24px;*/
-/*}*/
-
-/*div {*/
-/*    margin: 16px;*/
-/*    border: 1px solid burlywood;*/
-/*}*/
-
-/*.horizontal > span {*/
-/*    background-color: aqua;*/
-/*}*/
-
-
-/*.vertical>span {*/
-/*    background-color: coral;*/
-
-/*}*/
-
-/*.horizontal {*/
-/*    display:flex;*/
-/*    align-items: center;*/
-/*    justify-content: space-around;*/
-
-/*    height:50px;*/
-/*}*/
-
-
-
-/*.vertical{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: space-around;*/
-/*    height:200px;*/
-
-/*}*/
-
-
-
 html {
     font-size: 24px;
 }
@@ -58,17 +17,20 @@ div {
 }
 
 
+
 .horizontal {
     display:flex;
     height: 50px;
-    align-items: center;
-    justify-content:space-around;
+    align-items: center;  /* работает по второстепенной оси */
+    justify-content:space-around; /* работает по главной оси */
 }
 
 .vertical {
     display:flex;
     height:200px;
-    flex-direction: column;
+    flex-direction: column; /* меняет местами главную и второстепенную ось  - элементы  в колонку (вертикально) друг за другом, а не горизонтально*/
+
+    /* flex-direction: работаяет по главной оси - в ряд    */
 }
 
 

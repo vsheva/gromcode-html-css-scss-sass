@@ -101,9 +101,9 @@ body {
 
 .dashboard{
     display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-grow: 1;
+    justify-content:center; /*выравнивание по главной оси */
+    align-items: center;/* выравнивание по второстепенной оси */
+    flex-grow: 1; /* растет и занимате все доступное пространство */
     background-color:pink;
 }
 
@@ -113,7 +113,7 @@ header {
     height:40px;
     background-color:yellow;
     display: flex;
-    align-items: center;
+    align-items: center; /* выравнивание по второстепенной оси по вертикали*/
 
 }
 
@@ -130,7 +130,7 @@ header {
 .navigation {
     margin:0;
     display:flex;
-    list-style:none;
+    list-style:none; /* убрать точки*/
 }
 
 .navigation-item {

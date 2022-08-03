@@ -2,6 +2,51 @@
     box-sizing: border-box;
 }
 
+header>h1 {
+    text-align: center;
+}
+
+.articles-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article{
+    margin: 8px;
+    padding: 16px;
+    background-color:bisque;
+    display: block;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+* {
+    box-sizing: border-box;
+}
+
 header {
     text-align: center;
 }
@@ -19,3 +64,4 @@ header {
     padding: 16px;
     margin: 8px;
 }
+*/
