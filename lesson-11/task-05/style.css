@@ -1,3 +1,21 @@
+
+.thumb{
+    margin:8px;
+}
+
+.gallery:hover{
+    cursor:all-scroll;
+    overflow: auto;
+}
+
+
+.gallery{
+    display: flex;
+    overflow:hidden;
+}
+
+
+/*
 body {
     overflow-x: hidden;
 }
@@ -15,3 +33,4 @@ body {
     overflow: hidden;
     cursor: all-scroll;
 }
+*/
