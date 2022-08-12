@@ -3,6 +3,24 @@ html {
 }
 
 .properties-list {
+    color: #f39;
+    font-size: 24px;
+    line-height: 32px;
+
+    line-style: none;
+}
+
+.properties-list__item {
+    padding: 8px;
+}
+
+
+/*
+html {
+    font-size: 18px;
+}
+
+.properties-list {
     list-style: none;
     line-height: 32px;
     font-size: 24px;
@@ -11,4 +29,4 @@ html {
 
 .properties-list__item {
     padding: 8px;
-}
+}*/

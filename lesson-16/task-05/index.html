@@ -16,6 +16,77 @@
 <main class="page">
     <form class="login-form">
         <div class="form-control">
+            <input class="form-input" type="text" id="text" name="primaryLanguage" value="HTML" disabled/>
+        </div>
+        <div class="form-control">
+            <input class="form-input" type="checkbox" id="agree" name="agree" unchecked readonly/>
+        </div>
+        <div class="form-control">
+            <input class="form-input" type="checkbox" id="like" name="like" checked readonly/>
+        </div>
+
+        <div class="form-control">
+            <input class="form-input" type="color" id="color" value="#ff7f50" name="favouriteColor"/>
+        </div>
+
+        <div class="form-control">
+            <input type="date" name="birthDate" value="2021-01-02"/>
+        </div>
+
+
+        <input type="datetime-local" value="2024-10-04T13:02" name="birthTime"/>
+        </div>
+
+        <div class="form-control">
+            <input type="email" name="email" placeholder="example@domain.com" required/>
+        </div>
+
+        <div class="form-control">
+            <input type="file" name="avatar"/>
+        </div>
+
+        <div class="form-control">
+            <input type="month"  name="startLearning" value="2020-01"/>
+        </div>
+
+        <div class="form-control">
+            <input type="number"  name="favouriteNumber" value="17"/>
+        </div>
+
+        <div class="form-control">
+            <textarea  name="story" rows="5" cols="30" placeholder="A long time ago..."></textarea>
+        </div>
+
+
+
+        <div class="form-control">
+            <input  type="password"  name="secret"/>
+        </div>
+
+        <div class="form-control languages">
+            <label> <input class="form-input" value="html" type="radio" name="language"/> HTML </label>
+            <label> <input class="form-input" value="css" type="radio"  name="language" checked/> CSS </label>
+            <label> <input class="form-input" value="javascript" type="radio"  name="language"/> JavaScript </label>
+
+        </div>
+
+        <div class="form-control">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email"/>
+        </div>
+
+
+    </form>
+
+</main>
+</body>
+</html>
+
+
+<!--
+<main class="page">
+    <form class="login-form">
+        <div class="form-control">
             <label class="form-label" for="text"></label>
             <input class="form-input" type="text" id="text" name="primaryLanguage" value="HTML" disabled/>
         </div>
@@ -62,7 +133,8 @@
             <input class="form-input" type="month" id="month" name="startLearning" value="2020-01"/>
         </div>
 
-        <div class="form-control"><label class="form-label" for="number"></label>
+        <div class="form-control">
+        <label class="form-label" for="number"></label>
             <input class="form-input" type="number" id="number" name="favoriteNumber" value="17"/>
         </div>
 
@@ -132,6 +204,4 @@
         </button>
 
     </form>
-</main>
-</body>
-</html>
+</main>-->

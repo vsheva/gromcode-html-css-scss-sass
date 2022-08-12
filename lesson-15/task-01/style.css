@@ -1,3 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.image-container {
+    margin: 50px 0;
+}
+
+.gallery{
+    display:flex;
+}
+
+
+.card {
+    margin:16px;
+    box-shadow:0px 7px 18px -8px rgba(0,0,0,0.75);
+}
+
+.main-image {
+    margin: auto;
+    display:block;
+    border-radius:20px;
+    max-width: 100%;
+}
+
+.caption {
+    line-height:30px; /*высота 30 px и высота строки 30 px=> текст по центру*/
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.opacity-filter{
+    filter:opacity(50%);
+}
+
+.blur-filter{
+   filter:blur(4px);
+}
+
+.invert-filter {
+    filter:invert(100%);
+}
+
+
+
+/*
 * {
     box-sizing: border-box;
 }
@@ -39,3 +85,4 @@
     text-align: center;
     text-transform: lowercase;
 }
+*/

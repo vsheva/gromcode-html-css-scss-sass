@@ -1,3 +1,13 @@
+.rectangle{
+    background-color:blueviolet;
+}
+
+.new.text::first-letter{
+    color:green;
+    font-size:24px;
+}
+
+/*
 div.rectangle {
     background-color: blueviolet;
 }
@@ -5,4 +15,4 @@ div.rectangle {
 p.text::first-letter {
     color: green;
     font-size: 24px;
-}
+}*/

@@ -2,6 +2,60 @@
     box-sizing: border-box;
 }
 
+.image-button {
+    top: calc(50% - 25px);
+    left: calc(50% - 100px);
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    text-align: center;
+    line-height:50px;
+}
+
+.image-button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.image{
+    max-width:100%;
+    display:block;
+    margin:auto;
+
+}
+
+.image-container{
+    position: relative;
+  /* display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    box-sizing: border-box;
+}
+
 .image-container {
     position: relative;
 }
@@ -29,4 +83,4 @@
 
 .image-button:hover {
     opacity: 1;
-}
+}*/
