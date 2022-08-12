@@ -33,7 +33,7 @@
             <input type="date" name="birthDate" value="2021-01-02"/>
         </div>
 
-
+        <div class="form-control">
         <input type="datetime-local" value="2024-10-04T13:02" name="birthTime"/>
         </div>
 
@@ -46,35 +46,64 @@
         </div>
 
         <div class="form-control">
-            <input type="month"  name="startLearning" value="2020-01"/>
+            <input type="month" name="startLearning" value="2020-01"/>
         </div>
 
         <div class="form-control">
-            <input type="number"  name="favouriteNumber" value="17"/>
+            <input type="number" name="favouriteNumber" value="17"/>
         </div>
 
         <div class="form-control">
-            <textarea  name="story" rows="5" cols="30" placeholder="A long time ago..."></textarea>
+            <textarea name="story" rows="5" cols="30" placeholder="A long time ago..."></textarea>
         </div>
 
 
-
         <div class="form-control">
-            <input  type="password"  name="secret"/>
+            <input type="password" name="secret"/>
         </div>
 
         <div class="form-control languages">
             <label> <input class="form-input" value="html" type="radio" name="language"/> HTML </label>
-            <label> <input class="form-input" value="css" type="radio"  name="language" checked/> CSS </label>
-            <label> <input class="form-input" value="javascript" type="radio"  name="language"/> JavaScript </label>
+            <label> <input class="form-input" value="css" type="radio" name="language" checked/> CSS </label>
+            <label> <input class="form-input" value="javascript" type="radio" name="language"/> JavaScript </label>
 
         </div>
 
         <div class="form-control">
-            <label class="form-label" for="email">Email</label>
-            <input class="form-input" type="email" id="email" name="email"/>
+            <input type="range" value="30" name="learningProgress"/>
         </div>
 
+        <div class="form-control">
+            <input type="select" name="framework"/>
+        </div>
+
+        <div class="form-control">
+            <select name="framework">
+                <option value="react">React</option>
+                <option value="jquery">jQuery</option>
+                <option value="bootstap">Bootstrap</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <input type="search" name="search" placeholder="Type first letters..."/>
+        </div>
+
+        <div class="form-control">
+            <input type="time" name="lunchEnd" value="14:01"/>
+        </div>
+
+        <div class="form-control">
+            <input type="url" name="website" placeholder="https://website.com" required/>
+        </div>
+
+        <div class="form-control">
+            <input type="week" name=birthWeek" value="2021-W51"/>
+        </div>
+
+        <div class="form-control">
+            <input type="submit" name=button" value="Save"/>
+        </div>
 
     </form>
 
