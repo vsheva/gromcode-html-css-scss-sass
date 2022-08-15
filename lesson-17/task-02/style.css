@@ -1,3 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 16px;
+    width: 500px;
+}
+
+caption {
+    margin-bottom: 8px;
+}
+
+
+table, td, th {
+    border: 1px solid black;
+    padding: 4px;
+    border-collapse: collapse;
+
+}
+
+td, th {
+    padding: 4px;
+    text-align: right;
+    line-height: 40px;
+}
+
+div {
+    overflow-x: auto;
+}
+
+th {
+    background-color: aqua;
+}
+
+
+tfoot {
+    font-weight: 700;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody > tr:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+
+
+/*
 table {
     width: 500px;
     border-collapse: collapse;
@@ -35,4 +86,4 @@ thead {
 
 tfoot {
     font-weight: 700;
-}
+}*/
