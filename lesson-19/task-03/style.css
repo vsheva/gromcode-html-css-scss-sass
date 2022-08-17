@@ -1,46 +1,53 @@
-.container {
+* {
+    box-sizing: border-box;
+}
+
+
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
+
 }
+
+.spinner{
+    position: relative;
+}
+
 
 .spinner-text {
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
 
-
+    animation: blinking 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
 }
 
-.spinner {
-    position: relative;
-    animation: blinking 2s linear infinite;
-}
+
 
 .rect {
-    position: absolute;
+    background-color:black;
     width: 10px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #000000;
-    animation: moving 2s infinite;
+    height:4px;
+    border-radius: 4px;
 
+    position: absolute;
+    animation: blinking 2s, moving 2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
 }
 
+
 @keyframes moving {
-    0% {
+    from {
         left: 0;
         opacity: 1;
     }
-
-    50% {
+    to {
         left: 70px;
-    }
-
-    100% {
-        left: 0;
     }
 }
 
@@ -48,12 +55,11 @@
     0% {
         opacity: 0;
     }
-
     50% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
 }
+

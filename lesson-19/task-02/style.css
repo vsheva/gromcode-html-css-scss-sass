@@ -1,3 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    position: relative;
+}
+
+.square {
+    width: 100px;
+    height:100px;
+    top: 0;
+    left: 0;
+    background-color:coral;
+    position: absolute;
+    animation:move 2s;
+    animation-iteration-count:2;
+    animation-direction:alternate;
+    /*animation-fill-mode:forwards;*/
+}
+
+@keyframes move{
+   0%{
+     left:0;
+       top:0;
+       background-color:coral;
+   }
+    25%{
+        top:0;
+       left:300px;
+        background-color:cornflowerblue;
+
+    }
+
+  50%{
+      left:300px;
+      top:300px;
+      background-color:aqua;
+  }
+
+    75%{
+      left:0;
+      top:300px;
+        background-color:yellowgreen
+  }
+
+    100%{
+        left:150px;
+        top:150px;
+        background-color:coral;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .square {
     position: absolute;
     width: 100px;
@@ -38,4 +114,4 @@
         left: 0;
         background-color: coral;
     }
-}
+}*/
