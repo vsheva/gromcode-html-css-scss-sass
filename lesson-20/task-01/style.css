@@ -10,9 +10,66 @@ p {
     border-radius: 4px;
 }
 
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color:tomato;
+    transform:translateX(200px) translateY(100px) rotate(45deg) scale(1.5)  /* сместить квадрать 200- по оси х, 100 -по оси y*/
+    /*transform:translate(200px 100px) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 32px;
+    padding: 8px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 4px;
+}
+
 .square {
     height: 100px;
     width: 100px;
     background-color: tomato;
     transform: translate(200px, 100px) rotate(45deg) scale(1.5);
-}
+}*/

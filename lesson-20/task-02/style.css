@@ -1,3 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+  /*  justify-content: center;
+    align-items: center;*/
+}
+
+
+.fancy-button {
+   width:100px;
+    height:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, yellow, red);
+    color:white;
+    border-radius: 4px;
+    border:none;
+
+    margin:auto;
+    animation: spin 0.5s infinite linear /* spinner*/
+    /*animation:jump 0.5s 0.4s ease-in-out,
+    spin 0.5s   ease-in-out,
+    run-away 1s 2s ease forwards;*/                                       /* анимация какая длительность задержка animation-fill-mode:forwards */
+
+}
+
+/*
+@keyframes jump {
+    0% {
+     transform: translateX(0);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+*/
+
+@keyframes spin {
+   from{
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*
+@keyframes run-away {
+    from{
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(2000px);
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 body {
     display: flex;
     height: 100vh;
@@ -49,4 +143,4 @@ body {
     to {
         transform: translateX(2000px);
     }
-}
+}*/
