@@ -4,6 +4,129 @@
 
 
 html {
+    font-family: Verdana;
+    color:#555;
+    font-size: 16px;
+}
+
+h1{
+    margin:0;
+}
+
+.section__header {
+    text-align: center;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header {
+    background-image: linear-gradient(60deg, red, orange);
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding:0.5em;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    font-size: 1.25em;
+    flex-grow: 1;
+}
+
+.nav-list{
+    padding:0;
+    list-style: none;
+}
+
+.units-list{
+    line-height:1.75em;
+}
+
+.nav-list-link{
+    text-decoration: none;
+    color: #fff;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    padding: 0 0.5em;
+    display: block; /* работает обрезание*/
+}
+
+.nav-list-item {
+    background-color: #808080;
+    color: white;
+    line-height:2em;
+    margin-bottom:0.5em;
+}
+
+
+.css-units{
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-weight: 700;
+    font-size:1.125em;
+}
+
+
+.navigation {
+    padding:0.5em;
+    width: 20%;
+}
+
+.section {
+    padding:0.5em;/*5 процентов от ширины окна браузера*/
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.section__header{
+    font-size:5vw;
+    text-align: center;
+}
+
+.news {
+    padding:0.5em;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
     font-family: Verdana, sans-serif;
     color: #555;
     font-size: 16px;
@@ -93,3 +216,4 @@ body {
 }
 
 
+*/

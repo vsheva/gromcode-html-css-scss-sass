@@ -1,3 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.content {
+  display:flex;
+    min-height:100vh;
+}
+
+.gallery {
+    width: 80%;
+    background-color:#fa5;
+    display: flex;
+}
+
+.ideas {
+    display: flex;
+  width: 20%;
+    background-color:#5af;
+
+}
+
+.idea {
+ font-size:24px;
+    text-transform:uppercase;
+    font-weight: 700;
+    padding:4px;
+    color: #fff;
+    /*обрезается  предложение и  троеточие ...*/
+    overflow: hidden; /*переполнение*/
+    text-overflow: ellipsis;/*троеточие*/
+    white-space:nowrap;/*не переносить на новую строку*/
+}
+
+.section-image{
+    max-width: 100%;
+    /*display: block;*/
+    margin:auto;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 * {
     box-sizing: border-box;
@@ -44,4 +107,5 @@
 }
 
 
+*/
 
