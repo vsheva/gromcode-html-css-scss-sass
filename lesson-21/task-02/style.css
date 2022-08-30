@@ -27,6 +27,7 @@
     padding:4px;
     color: #fff;
     /*обрезается  предложение и  троеточие ...*/
+    display: block;
     overflow: hidden; /*переполнение*/
     text-overflow: ellipsis;/*троеточие*/
     white-space:nowrap;/*не переносить на новую строку*/
