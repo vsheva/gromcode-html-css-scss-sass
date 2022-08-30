@@ -1,11 +1,32 @@
-main {
+main{
     display: flex;
 }
 
-picture {
-    margin: auto;
+
+picture{
+    margin:auto;
 }
 
-img {
+img{
     max-width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

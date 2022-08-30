@@ -1,77 +1,106 @@
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.products {
-    display: flex;
-    flex-direction: column;
-    flex:2;
-}
-
+grow
 .navigation {
-    display: flex;
-    flex: 1;
     background-color: #ff7f50;
     min-height: 200px;
-}
-
-
-
-.products-list {
     display: flex;
     flex: 1;
+}
+
+.products-list {
     background-color: #006400;
     min-height: 200px;
+    display: flex;
+    flex: 1;
 }
 
 .news {
-    display: flex;
-    flex: 1;
     background-color: #0ff;
     min-height: 200px;
-
+    display: flex;
+    flex: 1;
 }
 
-
-
+span {
+    text-transform: lowercase;
+    font-family: "Verdana";
+    padding: 8px;
+    margin: auto;
+    background-color: #faebd7;
+    border-radius: 4px;
+}
 
 @media screen and (min-width: 600px) {
     .products {
-        flex-direction: row;
-    }
-
-    /*.navigation {*/
-    /*    flex-basis: 0px;*/
-    /*    flex-grow: 1;*/
-    /*    flex-shrink: 0;*/
-    /*    flex: 1;*/
-    /*}*/
-
-}
-
-/*@media screen and (min-width: 1200px) {*/
-/*    span {*/
-/*        background-color: green;*/
-/*    }*/
-/*}*/
-
-@media screen and (min-width: 1200px) {
-    .container {
-        flex-direction:row;
+        display: flex;
+        flex: 2;
     }
 }
 
 
+@media screen and (min-width: 900px) {
+    .content {
+        display: flex;
+    }
+}
+
+
+
+/*ТО, ЧТО НУЖНО ЗНАТЬ / width:calc(100%/3*2)  !!!
+
+.navigation {
+    background-color: #ff7f50;
+    min-height: 200px;
+    display: flex;
+
+}
+
+.products-list {
+    background-color: #006400;
+    min-height: 200px;
+    display: flex;
+
+}
+
+.news {
+    background-color: #0ff;
+    min-height: 200px;
+    display: flex;
+
+}
 
 span {
-    font-family: Verdana;
-    /*display: flex;*/
+    text-transform: lowercase;
+    font-family: "Verdana";
+    padding: 8px;
     margin: auto;
     background-color: #faebd7;
-    padding: 8px;
     border-radius: 4px;
-    text-transform: lowercase;
 }
 
+@media screen and (min-width: 600px) {
+    .products {
+        display: flex;
+    }
+
+    .products> div {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .content {
+        display: flex;
+    }
+
+    .products{
+        width:calc(100%/3*2)
+    }
+
+    .news{
+        width:calc(100%/3)
+    }
+}
+
+
+*/
