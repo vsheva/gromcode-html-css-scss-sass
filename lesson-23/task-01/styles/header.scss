@@ -1,0 +1,75 @@
+@import 'variables.scss';
+
+
+
+.header {
+  height: $unit*7;
+  background-color:$color-grey;
+  display:flex;
+  align-items: center;
+}
+
+
+.nav-list{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /*height: $unit * 7;*/
+
+  &__item{
+    color:$text-color-secondary;
+    padding:$unit*1;
+    margin-left: $unit;
+    border-radius: $border-radius;
+    font-weight:700;
+    cursor: pointer;
+    background-color:$color-secondary;
+
+
+    &_selected{
+      background-color:$color-primary;
+    }
+
+    &:hover{
+      opacity:0.7;
+    }
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
