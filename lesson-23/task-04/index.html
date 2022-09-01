@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SASS Layout</title>
-    <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-            integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
-            crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
 <main class="main">
-    <div class="products">
-        <header class="header">
-            <span class="header__content block-content">Navigation</span>
-        </header>
-        <section class="products-list">
-          <span class="products-list__content block-content"
-          >Products List</span
-          >
-        </section>
-    </div>
-    <section class="news">
-        <span class="news__content block-content">News</span>
+    <section class="main__products">
+        <div class="main__item     main__products_navigation"><span class="main__item_text">Navigation</span></div>
+        <div class="main__item     main__products_product_list"><span class="main__item_text">Products List</span></div>
     </section>
+    <div class="main__item         main__news"><span class="main__item_text">News</span></div>
 </main>
+
 </body>
 </html>

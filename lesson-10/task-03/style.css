@@ -124,7 +124,7 @@ header {
 .navigation {
     margin:0;
     display:flex;
-    list-style:none; !* убрать точки*!
+    list-styles:none; !* убрать точки*!
 }
 
 .navigation-item {
@@ -148,7 +148,7 @@ aside > h2 {
 aside>ul>li {
     line-height: 40px;
     margin-left: 16px;
-    list-style: none;
+    list-styles: none;
 }
 
 aside>ul {

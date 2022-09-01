@@ -1,0 +1,24 @@
+$sm:600px;
+$md:900px;
+
+
+@mixin for-small {
+  @media screen and (max-width:$sm-1) {
+    @content;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width:$sm) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width:$md) {
+    @content;
+  }
+}
+
+
+

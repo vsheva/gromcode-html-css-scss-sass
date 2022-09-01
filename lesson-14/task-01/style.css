@@ -21,7 +21,7 @@ html {
 }
 
 .properties-list {
-    list-style: none;
+    list-styles: none;
     line-height: 32px;
     font-size: 24px;
     color: #f39;

@@ -81,7 +81,7 @@
     display: none;
     position: absolute;
     min-width: 120px;
-    list-style-type: none;
+    list-styles-type: none;
     background-color: lightcyan;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;

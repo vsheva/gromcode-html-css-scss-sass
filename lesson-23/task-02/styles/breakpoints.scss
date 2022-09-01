@@ -1,0 +1,39 @@
+$sm:600px;
+$md:900px;
+$lg:1200px;
+
+
+@mixin for-extra-small {
+  @media screen and (max-width:$sm-1) {
+    @content;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width:$sm) {
+    @content;
+  }
+}
+
+
+@mixin for-medium-extra {
+  @media screen and (min-width:$md) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width:$lg) {
+    @content;
+  }
+}
+
+
+@mixin landscape {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+
+

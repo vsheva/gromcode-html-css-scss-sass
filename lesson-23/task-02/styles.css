@@ -2,16 +2,12 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
 .container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (orientation: landscape) {
   .container {
@@ -20,17 +16,17 @@ body {
 }
 
 .square {
-  height: 100px;
   width: 100px;
+  height: 100px;
   margin: 8px;
   background-color: #ff7f50;
 }
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
 }
-@media screen and (min-width: 900px) and (max-width: 1199px) {
+@media screen and (min-width: 900px) {
   .square {
     background-color: #a61;
   }
@@ -41,4 +37,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
